@@ -23,6 +23,7 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="/images/logo.svg"
+          logoAlt="Your Brand Logo"
           buttonText="Start Free Trial"
           navItems={links}
         />
@@ -68,7 +69,6 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <FooterLogoEmphasisBackgroundGradient
           logoSrc="/images/logo.svg"
-          logoAlt="Your Brand"
           logoText="Your Brand"
           items={[
             { label: "Privacy Policy", onClick: () => alert('Privacy Policy Clicked') },
