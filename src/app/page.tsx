@@ -32,7 +32,7 @@ export default function Home() {
         <BillboardHero title="Welcome to Your Brand" subtitle="Innovative SaaS solutions at your fingertips!" />
       </div>
       <div id="about" data-section="about" className="scroll-mt-24">
-        <SplitAbout description="Discover our revolutionary SaaS product tailored for your needs. From small startups to large enterprises, we have you covered with our innovative solutions that boost productivity and drive efficiency." />
+        <SplitAbout description="Discover our revolutionary SaaS product tailored for your needs." />
       </div>
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy3D
@@ -47,7 +47,7 @@ export default function Home() {
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <TextGridTokenomics
           title="Our Offering"
-          description="Explore essential stats about our SaaS product for transparency and customer trust."
+          description="Explore essential stats about our SaaS product for transparency and trust."
           tokenData={[
             { value: "99%", description: "Uptime" },
             { value: "5", description: "Pricing Plans" },
@@ -59,9 +59,9 @@ export default function Home() {
       <div id="faq" data-section="faq" className="scroll-mt-24">
         <CentralFAQ
           items={[
-            { title: "What is Your Brand?", content: "Your Brand is a SaaS solution designed to streamline your business operations and enhance productivity." },
-            { title: "How do I start?", content: "Simply sign up for a free trial to explore our features and benefits!" },
-            { title: "What plans do you offer?", content: "We offer several pricing plans tailored to different business sizes and needs." },
+            { title: "What is Your Brand?", content: "Your Brand is a SaaS solution designed to streamline business operations and enhance productivity." },
+            { title: "How do I start?", content: "Sign up for a free trial to explore features and benefits!" },
+            { title: "What plans do you offer?", content: "We offer several pricing plans tailored to different needs." },
             { title: "Is there customer support?", content: "Yes, our support team is available 24/7 via chat and email." },
           ]}
         />
