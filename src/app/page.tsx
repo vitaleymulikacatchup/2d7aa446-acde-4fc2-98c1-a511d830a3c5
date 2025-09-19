@@ -23,7 +23,8 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="/images/logo.svg"
-          logoAlt="Your Brand Logo"
+          logoWidth={50}
+          logoHeight={50}
           buttonText="Start Free Trial"
           navItems={links}
         />
