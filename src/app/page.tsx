@@ -23,10 +23,11 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="/images/logo.svg"
-          logoWidth={50}
-          logoHeight={50}
-          buttonText="Start Free Trial"
-          navItems={links}
+          logoAlt="Webild"
+          leftButtonText="Menu"
+          rightButtonText="Contact"
+          onLeftButtonClick={() => alert('Menu clicked')}
+          onRightButtonClick={() => alert('Contact clicked')}
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
@@ -70,7 +71,7 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <FooterLogoEmphasisBackgroundGradient
           logoSrc="/images/logo.svg"
-          logoText="Your Brand"
+          logoText="Webild"
           items={[
             { label: "Privacy Policy", onClick: () => alert('Privacy Policy Clicked') },
             { label: "Terms of Service", onClick: () => alert('Terms of Service Clicked') },
