@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleMinimal from '@/components/navigation/NavbarStyleMinimal';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
@@ -23,7 +23,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="/images/logo.svg"
-          logoAlt="Your Brand"
           buttonText="Start Free Trial"
           navItems={links}
         />
